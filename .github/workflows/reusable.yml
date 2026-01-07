@@ -4,7 +4,7 @@ on:
     inputs:
       artifact-name:
         description: Name of the artifact
-        required: true # it will be called only if artifact name is provided - false means no name of artifact is needed
+        required: false # it will be called only if artifact name is provided - false means no name of artifact is needed
         default: dist
         type: string
 
